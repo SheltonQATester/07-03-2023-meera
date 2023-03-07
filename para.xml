@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+	  <parameter name="username" value="shelton@gmail.com"></parameter>
+	  <parameter name="password" value="shelton@gmail.com"></parameter>
+    <classes>
+      <class name="firstdemo.Parametiriztion"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test thread-count="5" name="Test1">
+	  <parameter name="username" value="selenium@gmail.com"></parameter>
+	  <parameter name="password" value="sel123"></parameter>
+    <classes>
+      <class name="firstdemo.Parametiriztion"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test thread-count="5" name="Test2">
+	  <parameter name="username" value="java@gmail.com"></parameter>
+	  <parameter name="password" value="java123"></parameter>
+    <classes>
+      <class name="firstdemo.Parametiriztion"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
